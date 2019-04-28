@@ -1,0 +1,11 @@
+Origin: 6ilent's Repo
+Label: 6ilent's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Tweaks and such that I've made!
+
+SHA256:
+ b7bf491c06ce6cdb75736a00bd5fd8c57d34e815f1736b7657e5290431281460 962 Packages.bz2
