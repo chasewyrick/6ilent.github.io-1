@@ -206,3 +206,15 @@ h3 {
 a {
     text-decoration: none;
 }
+
+.table-btn, .table-btn > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table-btn:after {
+    content: "›";
+    font-size:30px;
+    transform: translateY(-40px);
+    float: right;
+}

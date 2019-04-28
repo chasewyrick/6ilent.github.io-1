@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
     <title>Noty</title>
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
-    <style>a, .tint {color: #7b60ff} .active {color: #7b60ff;border-bottom: 2px solid #7b60ff;}</style>
+    <style>a, .tint, .table-btn:after {color: #7b60ff} .active {color: #7b60ff;border-bottom: 2px solid #7b60ff;}</style>
     <script src="../../web/index.js"></script>
     <meta name="description" content="A package by 6ilent for iOS 7 to 12.1.2.">
     <meta property="og:title" content="Noty">
@@ -32,18 +32,13 @@
             <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
         </div>
         <div class="tweak_info">
-            <h3>Compatibility</h3>
-            <!-- Add green/red class to show support/lack of support. Do in JS to add auto-check in Cydia.-->
-            <p class="compatibility">This tweak is compatible with iOS iOS 7 to 12.1.2.</p>
-            <h3>Description</h3>
+            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 7 to 12.1.2.</p>
+            <div class="scroll_view"><img class="img_card" src="../../assets/com.6ilent.noty/screenshot/dos.png"><img class="img_card" src="../../assets/com.6ilent.noty/screenshot/uno.png"></div>
             <div class="md_view">
-                <p><p>Send custom test notifications :P</p>
-<p>Trigger the notification event by tapping on the statusbar a set amount of times!</p>
-<p><strong>Send bugs and such to my Twitter or Reddit Messages! ITS PRETTY STABLE BUT IDK</strong></p>
-<p><strong>Will be fixing in the future to select apps using AppList (Or something similar)! For now use the bundle ID!</strong></p>
+                <p><p>Send custom test notifications!</p>
+<p>Trigger the notification event by tapping on the status bar a set amount of times!</p>
 </p>
             </div>
-            <h3>Screenshots</h3><div class="scroll_view"><img class="img_card" src="../../assets/com.6ilent.noty/screenshot/dos.png"><img class="img_card" src="../../assets/com.6ilent.noty/screenshot/uno.png"></div>
             <h3>Information</h3>
             <div class="table">
                 <div class="cell">
@@ -69,14 +64,21 @@
             </div>
         </div>
         <div class="changelog">
-            <h3>Changelog</h3>
             <div class="changelog_entry">
+                <h4>1.0.0</h4>
+                <div class="md_view"><p>Initial release!</p>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.1.0</h4>
+                <div class="md_view"><p>Bug fixes!</p>
+</div>
+            </div><div class="changelog_entry">
                 <h4>1.1.0-hotfix</h4>
                 <div class="md_view"><p>Fixed the install issue!</p>
 </div>
             </div>
         </div>
-        <div class="caption center footer">Silica 0.2.1-beta – Updated 2019-04-28</div>
+        <div class="caption center footer">Silica 0.2.2-beta – Updated 2019-04-28</div>
     </div>
 </body>
 <script>compatible("7","12.1.2","iOS 7 to 12.1.2");externalize()</script>
